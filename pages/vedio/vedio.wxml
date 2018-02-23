@@ -1,0 +1,5 @@
+<!--vedio.wxml-->
+<video src="{{vaddr}}" class='xvideo' muted='true'></video>
+<image src='bmf.jpg' class='xvideo' mode='widthFix'></image>
+<image src='bmf2.jpg' class='xvideo' mode='widthFix'></image>
+<image src='bmf3.jpg' class='xvideo' mode='widthFix'></image>

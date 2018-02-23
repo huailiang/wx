@@ -1,0 +1,12 @@
+/* qrcode.wxss */
+.qrcode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:25px;
+}
+
+.img {
+  width: 640rpx;
+  height: 480rpx;
+}

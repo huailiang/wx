@@ -1,0 +1,28 @@
+<!--order.wxml-->
+<text>请填写表单：</text>
+<form bindsubmit="formSubmit">
+  <view class="section">
+    <view class="stitle">姓名:
+      <input name="name"placeholder="{{userInfo.nickName}}"/></view>
+    <view class="stitle">购买(斤):
+      <input name="num" type="number" placeholder="2"/></view>
+    <view class="stitle" >手机:
+      <input name="tel" type="number" placeholder="{{phone}}"/>
+    </view>
+    <view class="stitle">收货地址:</view>
+      <input name="addr" id='addr' placeholder="{{location}}">{{location}}</input>
+    </view>
+
+  <text>\n</text>
+  <view class="btn">
+    <button formType="submit">提交</button>
+  </view>
+  
+  <toast hidden="{{toastHidden}}" bindchange="toastChange">{{notice_str}}</toast> 
+  <view>  
+        <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" mask bindconfirm="confirm" bindcancel="cancel">  
+            确认提交么？  
+        </modal>  
+  </view>
+</form>
+

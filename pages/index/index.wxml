@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container" >
+  <view class="userinfo"> 
+    <block >
+      <image bindtap="bindViewTap" class='titlebg' src="bg.jpg" bindtap="clickVedio"></image>  
+      <!--text bindtap="clickQr">{{clickQr}}</text-->
+      <view class="btns">
+        <image bindtap="clickOrder" src='buy.jpg' class="btn1"></image>
+        <image bindtap="clickQr" src='pay.jpg' class="btn2"></image>
+      </view>
+      
+      <!--text>{{userInfo.nickName}}{userInfo.avatarUrl}}</text-->
+    </block>
+  </view>
+  <view class="usermotto">
+    <text>{{title}}</text>
+    <text>{{phone}}</text>
+    <text>{{address}}</text>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<!--qrcode.wxml-->
+<view class="qrcode">
+  <text>{{title}}</text>
+  <image src='qrcode.jpg' background-size="cover" mode='aspectFit' class='img'></image>
+</view>

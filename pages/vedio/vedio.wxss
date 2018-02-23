@@ -1,0 +1,7 @@
+/* vedio.wxss */
+
+.xvideo {
+  width: 760rpx;
+  height: 480rpx;
+  margin-top: 10px; 
+}

@@ -1,0 +1,10 @@
+/* order.wxss */
+.section {
+  margin-top: 1px; 
+  align-items: center;
+  padding:5px;
+}
+
+.stitle {
+  padding:5px;
+}
